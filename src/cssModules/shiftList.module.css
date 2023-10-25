@@ -1,0 +1,42 @@
+/* shift details page */
+.shift-details h2 {
+    font-size: 20px;
+    color: #34a1eb;
+    margin-bottom: 10px;
+  }
+  .shift-details{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .shift-details div {
+    margin: 20px 0;
+    align-items: center;
+  }
+  .shift-details button {
+    background: #34a1eb;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* shift previews / list */
+.shift-preview {
+    padding: 10px 16px;
+    height: 200px;
+    margin: 20px 0;
+    /* border-bottom: 1px solid #000000; */
+  }
+  .shift-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .shift-preview h2 {
+    font-size: 20px;
+    color: #34a1eb;
+    margin-bottom: 8px;
+  }
+  .shift-preview a{
+    text-decoration: none;
+  }

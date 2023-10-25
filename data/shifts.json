@@ -1,0 +1,76 @@
+{
+  "shifts": [
+    {
+      "id": 5,
+      "name": "Michael Johnson",
+      "body": "This is Michael Johnson's shift description.",
+      "department": "Marketing",
+      "date": "2023-10-27",
+      "startTime": "08:30 AM",
+      "endTime": "04:30 PM"
+    },
+    {
+      "id": 6,
+      "name": "Emily Brown",
+      "body": "This is Emily Brown's shift description.",
+      "department": "HR",
+      "date": "2023-10-27",
+      "startTime": "01:00 PM",
+      "endTime": "05:00 PM"
+    },
+    {
+      "id": 7,
+      "name": "David Wilson",
+      "body": "This is David Wilson's shift description.",
+      "department": "Sales",
+      "date": "2023-10-28",
+      "startTime": "10:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Lee",
+      "body": "This is Sophia Lee's shift description.",
+      "department": "Finance",
+      "date": "2023-10-28",
+      "startTime": "09:30 AM",
+      "endTime": "05:30 PM"
+    },
+    {
+      "id": 9,
+      "name": "William Harris",
+      "body": "This is William Harris's shift description.",
+      "department": "Customer Service",
+      "date": "2023-10-29",
+      "startTime": "12:00 PM",
+      "endTime": "04:00 PM"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Anderson",
+      "body": "This is Olivia Anderson's shift description.",
+      "department": "Operations",
+      "date": "2023-10-29",
+      "startTime": "08:00 AM",
+      "endTime": "12:00 PM"
+    },
+    {
+      "name": "Alice Johnson",
+      "body": "This is Alice Johnson's shift description.",
+      "department": "HR",
+      "date": "2023-10-06",
+      "startTime": "08:00 AM",
+      "endTime": "12:00 PM",
+      "id": 11
+    },
+    {
+      "name": "new",
+      "body": "test",
+      "department": "",
+      "date": "2023-10-12",
+      "startTime": "23:45",
+      "endTime": "23:46",
+      "id": 12
+    }
+  ]
+}
