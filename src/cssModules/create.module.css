@@ -1,4 +1,4 @@
-/* create new blog form */
+
 .create {
     max-width: 400px;
     margin: 0 auto;
@@ -7,22 +7,23 @@
   .create label {
     text-align: left;
     display: block;
+    font-weight: bold;
   }
   .create h2 {
     font-size: 20px;
-    color: #3593f1;
+    color: #7591ab;
     margin-bottom: 30px;
   }
   .create input, .create textarea, .create select {
     width: 100%;
     padding: 6px 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 2px solid #545252;
     box-sizing: border-box;
     display: block;
   }
   .create button {
-    background:  #3593f1;
+    background:  #7591ab;
     color: #fff;
     border: 0;
     padding: 8px;

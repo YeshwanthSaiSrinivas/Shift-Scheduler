@@ -1,0 +1,12 @@
+.container{
+    padding-top:50px;
+    display: grid;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

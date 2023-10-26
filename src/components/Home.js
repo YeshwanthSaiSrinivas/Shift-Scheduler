@@ -1,14 +1,14 @@
-import ShiftList from "./ShiftList";
 import useFetch from "../hooks/useFetch";
+import Layout from "./Layout";
 
 const Home = () => {
   const { error, isPending, data: shifts } = useFetch('http://localhost:8000/shifts') 
   return (
-    <div>
+    <>
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
-      { shifts && <ShiftList shifts={shifts} /> }
-    </div>
+      { shifts && <Layout shifts={shifts} /> }
+    </>
   );
 }
 

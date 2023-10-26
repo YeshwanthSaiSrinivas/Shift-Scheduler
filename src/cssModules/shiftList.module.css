@@ -1,42 +1,66 @@
 /* shift details page */
+.shift-details {
+  padding-top: 50px;
+  text-align: left; /* Align everything to the left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Vertically align the content */
+  width: 60%; /* Use 60% of the screen width */
+  margin: 0 auto; /* Center-align the content horizontally */
+}
+
 .shift-details h2 {
-    font-size: 20px;
-    color: #34a1eb;
-    margin-bottom: 10px;
-  }
-  .shift-details{
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-  }
-  .shift-details div {
-    margin: 20px 0;
-    align-items: center;
-  }
-  .shift-details button {
-    background: #34a1eb;
-    color: #fff;
-    border: 0;
-    padding: 8px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  /* shift previews / list */
+  font-size: 20px;
+  color: #34a1eb;
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the name */
+  width: 60%; /* Name uses 60% of the width */
+  margin: 0 auto; /* Center-align the name horizontally */
+}
+
+.shift-details p {
+  font-size: 16px; /* Adjust the font size */
+  margin: 4px 0; /* Add margin to separate paragraphs */
+  width: 100%; /* Make other content use full width */
+}
+
+.shift-details div {
+  margin: 20px 0;
+}
+
+.shift-details button {
+  background: #34a1eb;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%; /* Make the button use full width */
+}
+
+/* shift previews / list */
 .shift-preview {
-    padding: 10px 16px;
-    height: 200px;
-    margin: 20px 0;
-    /* border-bottom: 1px solid #000000; */
-  }
-  .shift-preview:hover {
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-  }
-  .shift-preview h2 {
-    font-size: 20px;
-    color: #34a1eb;
-    margin-bottom: 8px;
-  }
-  .shift-preview a{
-    text-decoration: none;
-  }
+  width: 60%; /* Use 60% of the screen width */
+  padding: 10px 16px;
+  height: 200px;
+  margin: 20px 0;
+}
+
+.shift-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.shift-preview h2 {
+  font-size: 20px;
+  color: #34a1eb;
+  margin-bottom: 8px;
+  text-align: center; /* Center-align the name */
+  width: 60%; /* Name uses 60% of the width */
+  margin: 0 auto; /* Center-align the name horizontally */
+}
+
+.shift-preview a {
+  text-decoration: none;
+  width: 100%; /* Make the link use full width */
+}

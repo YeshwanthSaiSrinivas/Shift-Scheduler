@@ -9,12 +9,11 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/create" style={{ 
           color: 'white', 
-          backgroundColor: '#34a1eb',
+          backgroundColor: '#7591ab',
           borderRadius: '8px' 
-        }}>New Blog</Link>
+        }}>Create Shift</Link>
       </div>
     </nav>
   );
 }
- 
 export default Navbar;
