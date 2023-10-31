@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Create from './components/Create';
 import ShiftDetails from './components/ShiftDetails';
 import NotFound from './components/NotFound';
+import Error from './components/Error';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<Create />} />
             <Route path="/shifts/:id" element={<ShiftDetails />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </div>
     </Router>

@@ -8,6 +8,7 @@ const Home = () => {
     <>
       { error && <div>{ error }</div> }
       { isPending && <Loading/> }
+      {/* { shifts && <Loading/> } */}
       { shifts && <Layout shifts={shifts} /> }
     </>
   );

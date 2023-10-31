@@ -19,7 +19,7 @@ const ShiftDetails = () => {
   return (
     <div className={shiftListCSS["shift-details"]}>
       {/* { isPending && <div>Loading...</div> } */}
-      { isPending && <PacmanLoader color='blue' /> }
+      { isPending && <PacmanLoader color='#7591ab' size='40'/> }
       { error && <div>{ error }</div> }
       { shift && (
         <article>
