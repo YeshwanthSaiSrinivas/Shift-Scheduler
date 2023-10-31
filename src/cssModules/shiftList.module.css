@@ -12,7 +12,7 @@
 
 .shift-details h2 {
   font-size: 20px;
-  color: #34a1eb;
+  color:#7591ab;
   margin-bottom: 10px;
   text-align: center; /* Center-align the name */
   width: 60%; /* Name uses 60% of the width */
@@ -30,7 +30,7 @@
 }
 
 .shift-details button {
-  background: #34a1eb;
+  background:#7591ab;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -53,7 +53,7 @@
 
 .shift-preview h2 {
   font-size: 20px;
-  color: #34a1eb;
+  color:#7591ab;
   margin-bottom: 8px;
   text-align: center; /* Center-align the name */
   width: 60%; /* Name uses 60% of the width */
