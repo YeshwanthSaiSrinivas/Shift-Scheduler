@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom"; 
 import useFetch from "../hooks/useFetch";
-import shiftListCSS from "../cssModules/shiftList.module.css"
-import { PacmanLoader } from 'react-spinners'
+import shiftListCSS from "../cssModules/shiftList.module.css";
+import Loading from "./Loading";
 
 const ShiftDetails = () => {
   const { id } = useParams();
@@ -19,7 +19,7 @@ const ShiftDetails = () => {
   return (
     <div className={shiftListCSS["shift-details"]}>
       {/* { isPending && <div>Loading...</div> } */}
-      { isPending && <PacmanLoader color='#7591ab' size='40'/> }
+      { isPending && <Loading/> }
       { error && <div>{ error }</div> }
       { shift && (
         <article>

@@ -4,7 +4,7 @@
         height: 270px;
         transition: box-shadow 0.3s;
         font-family: Arial, sans-serif;
-        padding: 10px;
+        padding: 15px;
     }
     
     .card:hover {

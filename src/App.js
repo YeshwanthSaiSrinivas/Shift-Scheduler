@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Create from './components/Create';
 import ShiftDetails from './components/ShiftDetails';
-import NotFound from './components/NotFound';
 import Error from './components/Error';
 
 
